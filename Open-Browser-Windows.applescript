@@ -5,7 +5,6 @@ set socialURLList to {"https://facebook.com", "https://twitter.com"}
 -- Open URLs in googleURLList in new window
 tell application "Google Chrome"
 	activate
-	-- close front window
 	
 	-- Open Google Mail, Calendar
 	make new window
